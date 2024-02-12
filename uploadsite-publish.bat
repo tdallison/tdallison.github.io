@@ -20,7 +20,7 @@ git commit -m "upload"
 git status
 
 :: finally, upload or Push the changes to the remote repository
-git push origin master
+git push
 
 :: Set the name of your site-name
 set SITE_NAME=freya-site
