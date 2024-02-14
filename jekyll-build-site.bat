@@ -7,14 +7,8 @@ cd /D "%~dp0"
 :: actuall build the site.
 jekyll build
 
-
-
+:: Introduce a delay (optional)
 ping -n 3 127.0.0.1 > nul
 
-
-:: exit or close the script. b is with a successful status.
+:: Exit the script with a successful status.
 exit /b
-
-
-:: exit
-exit
